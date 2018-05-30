@@ -1,0 +1,14 @@
+Source: kano-graphics-libs
+Maintainer: Team Kano <dev@kano.me>
+Section: x11
+Priority: optional
+Standards-Version: 3.9.4
+Build-Depends: debhelper (>=9.0.0)
+
+Package: kano-graphics-libs
+Architecture: all
+Depends:
+    ${misc:Depends},
+    libraspberrypi0
+Description: Manages the selection of OpenGLES version
+ This package controls which version of OpenGLES is used as the default.

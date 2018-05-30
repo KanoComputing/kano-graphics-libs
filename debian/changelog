@@ -1,0 +1,6 @@
+kano-graphics-libs (4.0.0-0) unstable; urgency=low
+
+  * Add symlinks for libbrcmEGL.so and libbrcmGLESv2.so to use as the
+    default.
+
+ -- Team Kano <dev@kano.me>  Wed, 30 May 2018 13:45:00 +0100
